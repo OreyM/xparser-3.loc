@@ -12,7 +12,4 @@ class Curl{
 
         return $page;
     }
-
-    public function test(){
-    }
 }
