@@ -14,6 +14,5 @@ class Curl{
     }
 
     public function test(){
-        echo "new test";
     }
 }
