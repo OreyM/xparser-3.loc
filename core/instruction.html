@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instruction for XboxParser</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body style="margin: 60px 0">
+
+    <div class="container">
+        <div class="row">
+            <h1 style="font-weight: bold; text-align: center">Instruction for XboxParser</h1>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>1. php.ini</h3>
+            <p><code>memory_limit = 2048M</code></p>
+            <p><code>extension = php_curl.dll</code></p>
+
+            <h3>2. MySQL</h3>
+            <p>Add table to your DataBase, from "rezerv" folder.</p>
+            <p><code>best_db.sql</code></p>
+            <p><code>discount_db.sql</code></p>
+            <p><code>game_db.sql</code></p>
+            <p><code>or_parcing.sql</code></p>
+
+            <h3>Settings</h3>
+            <p> In "core/config.php" add data to variables: </p>
+            <p><code>
+                define(HOST, 'localhost or IP for your DataBase connection');
+                define(DATABASE, 'database name');
+                define(USERNAME, 'username');
+                define(PASSWORD, 'password');
+            </code></p>
+        </div>
+    </div>
+
+</body>
+</html>
