@@ -1,5 +1,5 @@
 <?php
-
+//test
 class Curl{
     public function get_page($url) {
         $ch = curl_init($url);
