@@ -1,5 +1,4 @@
 <?php
-//test
 class Curl{
     public function get_page($url) {
         $ch = curl_init($url);
@@ -12,5 +11,9 @@ class Curl{
         curl_close($ch);
 
         return $page;
+    }
+
+    public function test(){
+        echo "new test";
     }
 }
